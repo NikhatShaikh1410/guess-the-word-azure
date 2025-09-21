@@ -1,0 +1,12 @@
+# Application
+flask
+gunicorn
+psycopg2-binary
+SQLAlchemy
+python-dotenv
+# For Azure AD Token Auth
+azure-identity
+
+# Testing & Linting
+pytest
+flake8

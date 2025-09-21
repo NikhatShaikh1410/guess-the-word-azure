@@ -1,0 +1,15 @@
+body { font-family: sans-serif; background-color: #f0f8ff; color: #333; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; }
+.container { background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); text-align: center; width: 90%; max-width: 500px; }
+h1 { color: #0078D4; }
+.word-display { font-size: 2.5rem; letter-spacing: 0.5rem; margin: 1.5rem 0; font-weight: bold; }
+.message { min-height: 24px; font-style: italic; color: #555; }
+#guess-input { padding: 0.5rem; font-size: 1rem; text-transform: uppercase; width: 150px; text-align: center; border: 2px solid #ccc; border-radius: 5px; }
+button { padding: 0.6rem 1.2rem; font-size: 1rem; border: none; border-radius: 5px; cursor: pointer; background-color: #0078D4; color: white; margin: 0.5rem; transition: background-color 0.2s; }
+button:hover { background-color: #005a9e; }
+#start-button { background-color: #28a745; }
+#start-button:hover { background-color: #218838; }
+.scoreboard { margin-top: 2rem; text-align: left; }
+.scoreboard h2 { text-align: center; }
+.scoreboard ul { list-style: none; padding: 0; }
+.scoreboard li { background: #f8f9fa; padding: 0.5rem; border-radius: 5px; margin-bottom: 0.5rem; display: flex; justify-content: space-between; }
+.scoreboard li span:last-child { font-weight: bold; }

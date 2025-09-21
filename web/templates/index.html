@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Word</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Guess the Word on Azure!</h1>
+        <div class="game-area">
+            <div id="word-display" class="word-display"></div>
+            <div id="guesses-display" class="guesses-display"></div>
+            <p id="message" class="message"></p>
+        </div>
+        <div id="game-controls">
+            <input type="text" id="guess-input" maxlength="1" placeholder="Enter a letter">
+            <button id="guess-button">Guess</button>
+        </div>
+        <button id="start-button">New Game</button>
+        <div class="scoreboard">
+            <h2>High Scores</h2>
+            <ul id="high-scores-list"></ul>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
